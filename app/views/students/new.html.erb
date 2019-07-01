@@ -1,0 +1,19 @@
+<form action="students" method="POST">
+    <label>Student Form</label>
+    <input type="text" id="student[first_name]" name='student[first_name]'>
+    <input type="text" id="student[last_name]" name='student[last_name]'>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="submit" value="Submit Student">
+
+</form>
+
+<%# <form action="<%= posts_path" method="POST"> %> %>
+  <%# <label>Post title:</label><br> %>
+  <%# <input type="text" id="post_title" name="post[title]"><br> %>
+
+  <%# <label>Post description:</label><br> %>
+  <%# <textarea id="post_description" name="post[description]"></textarea><br> %>
+
+  <%# <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> %>
+  <%# <input type="submit" value="Submit Post"> %>
+<%# </form> %>
